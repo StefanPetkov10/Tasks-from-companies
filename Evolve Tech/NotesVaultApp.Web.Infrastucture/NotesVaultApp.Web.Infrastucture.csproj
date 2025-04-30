@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotesVaultApp.Data.Models\NotesVaultApp.Data.Models.csproj" />
+    <ProjectReference Include="..\NotesVaultApp.Data.Repository\NotesVaultApp.Data.Repository.csproj" />
+    <ProjectReference Include="..\NotesVaultApp.Data\NotesVaultApp.Data.csproj" />
+  </ItemGroup>
+
+</Project>
